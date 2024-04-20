@@ -9,5 +9,5 @@ print(my_list[-1])
 print(my_list[-2])
 print(my_list[-3])
 
-msg ='안녕하세요'
+msg = '안녕하세요'
 print(msg[-1])

@@ -37,7 +37,7 @@ for c in mystr:
         a_count += 1
         print(f'{mystr}에서 A는 {a_count}개 ')
 
-for _ in range(5): # 언더바 : 와일드카드 -> 값을 버림
+for _ in range(5):  # 언더바 : 와일드카드 -> 값을 버림
     print("")
 
 for i in range(5):

@@ -7,7 +7,7 @@ print(myList[2][1])
 numList = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 for n1 in numList:
     for n2 in n1:
-        print(n2,end=' ')
+        print(n2, end=' ')
     print(' ')
 
 # for n1 in range(len(numList)):
