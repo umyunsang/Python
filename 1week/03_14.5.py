@@ -1,0 +1,5 @@
+print('False and False : ',False and False)
+print('False and Ture : ',False and True)
+print('False and False : ',False and False)
+print('False and False : ',False and False)
+print('False and False : ',False and False)
