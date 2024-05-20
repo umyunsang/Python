@@ -4,12 +4,13 @@ def solution(x, n):
     # 1 ~ n까지의 수열
     # (1) 일반적인 제어문
     answer = []
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         answer.append(x * i)
 
     # (2) List Comprehension
-    answer = [x * i for i in range(1, n+1)]
+    answer = [x * i for i in range(1, n + 1)]
     return answer
+
 
 x_list = [2, 4, -4]
 n_list = [5, 3, 2]
@@ -21,5 +22,3 @@ for idx in range(len(x_list)):
 # (2) zip 함수 => 각 리스트의 요소를 하나씩 가져와 묶어서 반환해주는 함수
 for v1, v2 in zip(x_list, n_list):
     print(solution(v1, v2))
-
-
