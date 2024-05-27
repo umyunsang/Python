@@ -18,10 +18,5 @@ def solution(s):
     return result
 
 
-
-
-
-
-
 s = "try hello world"
 print(solution(s))
